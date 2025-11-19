@@ -1,0 +1,16 @@
+# Chrome configuration and data
+chrome/config/*
+chrome/downloads/*
+
+# Keep directory structure
+!chrome/config/.gitkeep
+!chrome/downloads/.gitkeep
+
+# Environment variables (may contain sensitive data)
+.env
+
+# SSL certificates
+nginx/certs/*.key
+
+# Logs
+*.log
